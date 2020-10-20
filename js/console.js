@@ -2,8 +2,9 @@ $(function () {
     document.onreadystatechange = function () {
         if (document.readyState == "complete") {
             console.clear();
+            console.waring = function() {}
             report({id: "NCC2-036", type: "success", message: " 调用前置摄像头拍照成功，识别为【小笨蛋】。"});
-            console.log("Photo captured: %c\n  ", 'font-size:65px;background:url("../images/xiaobendan.gif") no-repeat 0 0;background-color:#fff;');
+            console.log("Photo captured: %c\n  ", 'font-size:65px;background:url("https://1124839262.github.io/MyH5/images/xiaobendan.gif") no-repeat 0 0;background-color:#fff;');
             report({id: "WELCOME", type: "info", message: " 你好，小笨蛋。"});
             report({id: "⚡️ Powered by yanggb", type: "warn", message: " 你正在访问 彤哥 的博客。"});
             report({id: "W23-12", type: "info", message: " 你已经打开控制台。"});
