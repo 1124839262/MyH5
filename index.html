@@ -15,16 +15,58 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <script src="./js/jquery.min.js?v=3.2.1"></script>
 <script src="./js/bootstrap.min.js?v=3.3.7"></script>
-<body>
+<script src="./js/content.js?v=1.0.1"></script>
+<link href="css/font-awesome.css?v=4.4.0" rel="stylesheet">
+
+<!-- Morris -->
+<link href="css/morris-0.4.3.min.css" rel="stylesheet">
+
+<link href="css/animate.css" rel="stylesheet">
+<link href="css/style.css?v=4.1.0" rel="stylesheet">
+<script>
+    $(document).ready(function () {
+        $('.contact-box').each(function () {
+            animationHover(this, 'pulse');
+        });
+    });
+</script>
+<body class="gray-bg">
 <!-- 天气start -->
 <iframe scrolling="no" src="https://tianqiapi.com/api.php?style=ta&skin=sogou" frameborder="0" width="400" height="24"
         allowtransparency="true"></iframe>
 <!-- 天气end -->
 
-<div class="container-fluid">
+<div class="wrapper wrapper-content animated fadeInRight">
     <div class="row">
-        <h1 class="col-xs-12 col-sm-12 col-md-12 text-center header-title">许良彤的小窝</h1>
+        <h1 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center header-title">许良彤的小窝</h1>
     </div>
+
+    <div class="row">
+        <div class="col-lg-4 col-md-4  col-sm-12 col-xs-12">
+            <div class="contact-box">
+                <a href="profile.html">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <div class="text-center">
+                            <img alt="image" style="width: 50px; height: 50px" class="img-circle m-t-xs img-responsive" src="./images/profilePicture.jpg">
+                            <div class="m-t-xs font-bold">工作经历</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                        <h3><strong></strong></h3>
+                        <p><i class="fa fa-map-marker"></i> 山东·济南</p>
+                        <address>
+                            <strong>xx, Inc.</strong><br>
+                            E-mail:xxx@xx.com<br>
+                            Weibo:<a href="">http://xx.com/xxx</a><br>
+                            <abbr title="Phone">Tel:</abbr> (123) 456-7890
+                        </address>
+                    </div>
+                    <div class="clearfix"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 <!-- 看板娘start -->
