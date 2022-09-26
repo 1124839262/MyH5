@@ -77,8 +77,8 @@ $('.waifu-tool .fui-photo').click(function (){
 
 function waifuWelcome(){
     var text;
-    var SiteIndexUrl = 'https://www.cnblogs.com/hean/';  // 手动指定主页
-    //var SiteIndexUrl = window.location.protocol+'//'+window.location.hostname+'/';  // 自动获取主页
+    // var SiteIndexUrl = 'https://www.cnblogs.com/hean/';  // 手动指定主页
+    var SiteIndexUrl = window.location.protocol+'//'+window.location.hostname+'/';  // 自动获取主页
 
     if (window.location.href == SiteIndexUrl) {      // 如果是主页
         var now = (new Date()).getHours();
@@ -118,7 +118,7 @@ function waifuWelcome(){
                 text = 'Hello! 来自 <span style="color:#0099cc;">' + referrer.hostname + '</span> 的朋友';
             }
         } else {
-            text = '欢迎阅读<span style="color:#0099cc;">『' + document.title.split(' - ')[0] + '』</span>';
+            text = '欢迎阅读<span style="color:#0099cc;">『彤哥来啦的小窝』</span>';
         }
     }
     showMessage(text, 6000);
