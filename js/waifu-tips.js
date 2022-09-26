@@ -121,7 +121,7 @@ function waifuWelcome(){
             text = '欢迎阅读<span style="color:#0099cc;">『彤哥来啦的小窝』</span>';
         }
     }
-    showMessage(text, 6000);
+    showMessage(text, 6000, true);
 }
 
 //window.hitokotoTimer = window.setInterval(showHitokoto,30000);
@@ -405,8 +405,8 @@ function initModel(){
 
         /* 首次访问加载 指定模型 的 指定材质 */
 
-        var modelId = 2;            // 模型 ID
-        var modelTexturesId = 49;    // 材质 ID
+        var modelId = 5;            // 模型 ID
+        var modelTexturesId = 1;    // 材质 ID
 
     } loadModel(modelId, modelTexturesId);
 
