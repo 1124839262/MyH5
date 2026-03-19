@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>John Doe</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <icon>http://example.com/icon.png</icon>
+  <id>http://example.com/</id>
+  <link href="http://example.com/" rel="alternate"/>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, John Doe</rights>
+  <title>Hexo</title>
+  <updated>2026-03-19T08:12:55.248Z</updated>
+  <entry>
+    <author>
+      <name>John Doe</name>
+    </author>
+    <id>http://example.com/2026/03/19/first/</id>
+    <link href="http://example.com/2026/03/19/first/"/>
+    <published>2026-03-19T08:08:14.000Z</published>
+    <summary>
+      <![CDATA[<p>111]]>
+    </summary>
+    <title>第二次</title>
+    <updated>2026-03-19T08:12:55.248Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>John Doe</name>
+    </author>
+    <id>http://example.com/2026/03/19/first/</id>
+    <link href="http://example.com/2026/03/19/first/"/>
+    <published>2026-03-19T08:08:14.000Z</published>
+    <summary>
+      <![CDATA[<p>2222]]>
+    </summary>
+    <title>第二次</title>
+    <updated>2026-03-19T08:12:44.750Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>John Doe</name>
+    </author>
+    <id>http://example.com/2023/12/25/hello/</id>
+    <link href="http://example.com/2023/12/25/hello/"/>
+    <published>2023-12-24T16:16:18.000Z</published>
+    <summary>
+      <![CDATA[<p>欢迎来到我的全新博客！这里是我记录学习、分享知识和技术心得的地方。<br />
+关于 Hexo<br />
+今天，我刚刚搭建好了这个由 Hexo 驱动的个人博客。Hexo 是一个快速、简洁且高效的博客框架，它能将 Markdown]]>
+    </summary>
+    <title>你好啊</title>
+    <updated>2026-03-19T07:54:18.851Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>John Doe</name>
+    </author>
+    <id>http://example.com/2023/12/25/hello/</id>
+    <link href="http://example.com/2023/12/25/hello/"/>
+    <published>2023-12-24T16:16:18.000Z</published>
+    <summary>
+      <![CDATA[<p>Welcome to my brand new blog! This is a place where I will record my learning journey, share knowledge, and reflect on my technical]]>
+    </summary>
+    <title>Hello</title>
+    <updated>2026-03-19T07:54:49.580Z</updated>
+  </entry>
+</feed>
